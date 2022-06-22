@@ -1,0 +1,46 @@
+html, body{
+    
+width: 100%;
+height: 100%;
+margin: 0;
+background: url(https://image1.shopserve.jp/sunrich.jp/pic-labo/BBRC251D1-1.jpg);
+background-position: 0%;   
+background-attachment: fixed;
+}
+h1{
+    margin-left: 1cm;
+    color: rgb(1, 1, 14);
+    font-style: italic;
+    font-size: 1.5cm
+}
+.text_info{
+    
+    color: rgb(34, 21, 2);
+    width: 14cm;
+    height: 20cm;
+    margin-left: 1cm;
+}
+.user_information{
+    width: 30%;
+    height: 100%;
+    border: 1px black;
+}
+.user_information caption{
+    padding-bottom: 0.5cm;
+    color: rgb(15, 15, 177);
+    font-size: 150%;
+    align-items: center;
+    padding-top: 10px;
+}  
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.page_footer{
+    padding: 2rem 1rem;
+    position: relative;
+    top: 8cm;
+    color: aliceblue;
+    }
