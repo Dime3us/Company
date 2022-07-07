@@ -3,7 +3,7 @@ html, body{
 width: 100%;
 height: 100%;
 margin: 0;
-background: url(https://image1.shopserve.jp/sunrich.jp/pic-labo/BBRC251D1-1.jpg);
+background: url(https://imgr1.auto-motor-und-sport.de/sport-auto-Award-2017-P-155-Ford-GT-169FullWidth-f56694c1-1062952.jpg);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
@@ -16,14 +16,19 @@ main{
 }
 h1{
     margin-left: 5%;
-    color: rgb(1, 1, 14);
+    color: #4d1933;
     font-style: italic;
     font-size: 50px;
 }
 .text_info{
-    color: rgb(34, 21, 2);
+    height: 30%;
+    color: rgb(241 234 234);
     width:28em;
     margin-left: 3em;
+    overflow-y: scroll;
+    font-size: 20px;
+    background: repeating-radial-gradient(black, transparent 100px);
+    
 }
 .user_information{
     width: 30%;
@@ -37,6 +42,8 @@ h1{
     padding-top: 10px;
 }  
 header.header {
+    width: 100%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,4 +76,15 @@ header.header {
 }
 .page-footer-adress{
     list-style-type: none;
+}
+.nav{
+    width: 10%;
+    height: 10%;
+}
+.car-list{
+    width: 10%;
+    height: 10%;
+    transform: translate(500%, -120%);
+    font-size: 20px;
+    
 }
